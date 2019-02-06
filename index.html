@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Exercice formulaire</title>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur le formulaire</h1>
+    <h2>Veuillez répondre aux questions suivantes</h2>
+
+  <form method="post" action="/">
+    <fieldset>
+      <legend>Votre compte</legend>
+      <div>
+        <label for="nom">Nom&nbsp;:</label>
+        <input type="text" id="nom" name="nom" placeholder="Saisir votre Nom"/>
+      </div>
+      <div>
+        <label for="Prenom">Prénom&nbsp;:</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Saisir votre Prénom"/>
+      </div>
+      <div>
+        <label for="adresse mail">Adresse mail&nbsp;:</label>
+        <input type="email" id="mail" name="mail" placeholder="Renseigner votre adresse mail"/>
+      </div>
+      <div>
+        <label for="mot de passe">Mot de passe&nbsp;:</label>
+        <input type="password" id="mdp" name="mot de passe" placeholder="Entrer un mot de passe" />
+      </div>
+        <input type="reset" value="Effacer" />
+        <input type="submit" value="Envoyer" />
+    </fieldset>
+  </form>
+
+  </body>
+</html>

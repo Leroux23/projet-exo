@@ -1,0 +1,54 @@
+@import url("reset.css");
+
+body{color: black;
+  font-size: 16px;
+  font-family: Times;
+}
+
+h1{color: #f44842;
+  font-size: 25px;
+  font-family: Times;
+  margin: 30px;
+  padding: 20px;
+}
+
+h2{color: white;
+font-size: 20px;
+font-family: :Times;
+background-color: #f44842;
+margin: 30px;
+padding: 20px;
+}
+
+legend{color: black;
+font-size: 20px;
+font-family: Times;
+font-weight: bold;
+}
+fieldset{
+  color: red;
+  border: 5px dotted;
+  padding: 40px 20px;
+}
+label{
+float: left;
+width: 200px;
+}
+form fieldset div{
+  clear: both;
+}
+form{color: black;
+  font-size: 16px;
+  font-family: Times;
+  font-weight: bold;
+  background-color: #fc9a97;
+}
+form fieldset input[type="reset"],form fieldset input[type="submit"]{
+  color: white;
+  background-color: #f44842;
+}
+
+div{color: black;
+}
+
+}
